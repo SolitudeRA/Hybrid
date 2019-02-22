@@ -4,18 +4,6 @@
 
 ## Variables
 
-### Grid break points
-
-|      | Phone | Tablet | Tablet-Pro | Laptop | Desktop-FHD | Desktop-WQHD |
-|:----:|:-----:|:------:|:----------:|:------:|:-----------:|:------------:|
-|  0   |   *   |        |            |        |             |              |
-| 767  |   *   |   *    |            |        |             |              |
-| 1023 |       |   *    |     *      |        |             |              |
-| 1365 |       |        |     *      |   *    |             |              |
-| 1919 |       |        |            |   *    |      *      |              |
-| 2559 |       |        |            |        |      *      |      *       |
-|  ∞   |       |        |            |        |             |      *       |
-
 ### Layer z-index
 
 |       Layer        | z-index |          comment          |
@@ -28,6 +16,25 @@
 |       Sticky       |   500   |     Sticky components     |
 |   Modal-backdrop   |   550   |   Backdrop of the modal   |
 |       Modal        |   600   |        Modal layer        |
+
+### Grid break points
+
+|      | Phone | Tablet | Tablet-Pro | Laptop | Desktop-FHD | Desktop-WQHD |
+|:----:|:-----:|:------:|:----------:|:------:|:-----------:|:------------:|
+|  0   |   *   |        |            |        |             |              |
+| 767  |   *   |   *    |            |        |             |              |
+| 1023 |       |   *    |     *      |        |             |              |
+| 1365 |       |        |     *      |   *    |             |              |
+| 1919 |       |        |            |   *    |      *      |              |
+| 2559 |       |        |            |        |      *      |      *       |
+|  ∞   |       |        |            |        |             |      *       |
+
+### Font unicode range
+
+| Language | unicode rage |
+|:--------:|:------------:|
+|  en_US   |              |
+|   CJK    |              |
 
 ### Color Palette
 
